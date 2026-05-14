@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>hookr</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header>
+    <h1>hookr</h1>
+    <span class="url">any path → <code id="endpoint"></code></span>
+    <span class="badge"><span id="conn" class="conn"></span> <span id="conn-text">connecting</span></span>
+    <span class="badge"><span id="count">0</span> captured</span>
+    <span class="spacer"></span>
+    <button id="clear" class="danger">Clear all</button>
+  </header>
+  <main>
+    <div id="list"></div>
+    <div id="detail" class="empty">Send a request to any path on this server — it'll appear here.</div>
+  </main>
+  <div id="toast" class="toast"></div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
