@@ -3,6 +3,7 @@
   "version": "0.2.0",
   "private": true,
   "description": "Capture incoming HTTP requests and forward them to any URL.",
+  "license": "MIT",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
